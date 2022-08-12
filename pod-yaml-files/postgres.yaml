@@ -1,0 +1,19 @@
+# Create a pod that runs a postgres container inside
+
+apiVersion: v1
+kind: Pod
+metadata:
+  namespace: local-applications
+  name: postgres
+  labels:
+    app: postgres
+
+spec:
+  containers:
+    - name: postgres
+      image: postgres:9.6.17
+      ports:
+        - containerPort: 5432
+      env:
+        - name: POSTGRES_PASSWORD
+          value: "pwd"
