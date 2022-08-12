@@ -18,9 +18,15 @@
 - The local cluster is being managed through the rancher ui which is downloaded via the docker command given through Rancher's documentation https://rancher.com/docs/rancher/v2.5/en/installation/other-installation-methods/single-node-docker/
 
 
-- I am using Rancher UI because it is an open source kubernetes management tool in which you can completely manage a private, hybrid, public, and or multi-cloud k8 cluster that can handle your entire cluster through an web ui. It contains ui pages and routes that show you other open source tooling that works well with rancher and can act as a plugin or (sort of like extra dlc for your cluster). For example, on the cluster tool page, you can find the most common applications used with rancher. These applications are essentially just helm charts that sort of automate a bunch of the manual configuring on a specific resource in a cluster. There's way more to it, but this is dumbed down simple way of explaining it. Some of the applications include istio which is an open source service mesh. It also includes Longhorn, Prometheus Monitoring with Grafana, NeuVector, Logging, OPA Gatekeeper. Now, there is another page that includes even more helm charts and that can be found on by clicking Apps on the left side drawer menu in the cluster dropdown.  
+- I am using Rancher UI because it is an open source kubernetes management tool in which you can completely manage a private, hybrid, public, and or multi-cloud k8 cluster that can handle your entire cluster through an web ui. 
+![Alt text](assets/create-cluster-or-node.png?raw=true "Title")
+
+It contains ui pages and routes that show you other open source tooling that works well with rancher and can act as a plugin or (sort of like extra dlc for your cluster). For example, on the cluster tool page, you can find the most common applications used with rancher. These applications are essentially just helm charts that sort of automate a bunch of the manual configuring on a specific resource in a cluster. There's way more to it, but this is dumbed down simple way of explaining it. Some of the applications include istio which is an open source service mesh. It also includes Longhorn, Prometheus Monitoring with Grafana, NeuVector, Logging, OPA Gatekeeper. Now, there is another page that includes even more helm charts and that can be found on by clicking Apps on the left side drawer menu in the cluster dropdown.  
 
 
+![Alt text](assets/cluster-tools.png?raw=true "Title")
+
+![Alt text](assets/charts.png?raw=true "Title")
 
 
 
