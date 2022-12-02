@@ -37,7 +37,7 @@ Example of an oss infrastructure stack
 - Minio (bucket storage)
 - Postgres (db)
 - pgadmin (db management)
-- wordpress for application landing page
+- wordpress (application landing page)
 - penpot (designs and mockups)
 - supabase (backend as a service)
 - harbor (container image registry)
