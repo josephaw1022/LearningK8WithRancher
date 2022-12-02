@@ -42,6 +42,8 @@ Example of an oss infrastructure stack
 - supabase (backend as a service)
 - harbor (container image registry)
 - nginx proxy manager (manage nginx reverse proxying with an intuitive ui)
+- hashicorp vault (secrets management)
+- keycloak (iam management)
 
 All of these technologies listed (and there are many many more) can be hosted and ran through rancher on any kind of kubernetes cluster and then easily configured to have nodes from multiple different clouds communicate together and form a cluster.
 
